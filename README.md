@@ -12,23 +12,27 @@ Aby zainstalować Base128, wykonaj następujące kroki:
 
 3. Skompiluj kod źródłowy: ``` make ``` 
 
-4. Gotowe! Base128 jest teraz gotowe do użycia. 
+4. Gotowe!
+   
+6. Base128 jest teraz gotowe do użycia. 
 
 ## Jak używać ### 
-Kodowanie Aby zakodować dane przy użyciu Base128, wykonaj polecenie: 
+#### Kodowanie ####
+Aby zakodować dane przy użyciu Base128, wykonaj polecenie: 
 
 ``` ./base128 -e ``` Gdzie: - ``` jest ścieżką do pliku, który chcesz zakodować, 
 
 - `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zakodowanymi danymi. 
 
-### Dekodowanie ###
+#### Dekodowanie ####
 Aby zdekodować dane zakodowane w formacie Base128, wykonaj polecenie: 
 
 ``` ./base128 -d ``` Gdzie: - `` jest ścieżką do pliku, który chcesz zdekodować, 
 - `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zdekodowanymi danymi. 
 
 ## Przykłady ### 
-Kodowanie Załóżmy, że chcemy zakodować plik "dane.txt" i zapisać zakodowane dane do pliku "zakodowane.bin". 
+#### Kodowanie ####
+Załóżmy, że chcemy zakodować plik "dane.txt" i zapisać zakodowane dane do pliku "zakodowane.bin". 
 
 W tej sytuacji wykonujemy polecenie: 
 
