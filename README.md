@@ -68,13 +68,13 @@ To wszystko!
 Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128.
 
 ## Documentation 
-See these PDF
+See these [PDF](https://opensource.org/license/mit/)
 
 ## Download
 Windows|Linux
 -|-
-ZIP|TAR.GZ
-MD5|MD5
+[ZIP](https://opensource.org/license/mit/)|[TAR.GZ](https://opensource.org/license/mit/)
+[MD5](https://opensource.org/license/mit/)|[MD5](https://opensource.org/license/mit/)
 
 
 ## License
