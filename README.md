@@ -21,13 +21,13 @@ Kodowanie Aby zakodować dane przy użyciu Base128, wykonaj polecenie:
 
 - `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zakodowanymi danymi. 
 
-### Dekodowanie Aby zdekodować dane zakodowane w formacie Base128, wykonaj polecenie: 
+### Dekodowanie ###
+Aby zdekodować dane zakodowane w formacie Base128, wykonaj polecenie: 
 
 ``` ./base128 -d ``` Gdzie: - `` jest ścieżką do pliku, który chcesz zdekodować, 
 - `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zdekodowanymi danymi. 
 
 ## Przykłady ### 
-
 Kodowanie Załóżmy, że chcemy zakodować plik "dane.txt" i zapisać zakodowane dane do pliku "zakodowane.bin". 
 
 W tej sytuacji wykonujemy polecenie: 
@@ -36,7 +36,8 @@ W tej sytuacji wykonujemy polecenie:
 lub
 ``` ./base128 -e dane.txt >> zakodowane.bin ``` 
 
-### Dekodowanie Załóżmy, że mamy plik "zakodowane.bin" zawierający dane zakodowane w formacie Base128 i chcemy je zdekodować do pliku "odkodowane.txt". 
+### Dekodowanie ###
+Załóżmy, że mamy plik "zakodowane.bin" zawierający dane zakodowane w formacie Base128 i chcemy je zdekodować do pliku "odkodowane.txt". 
 
 W tym przypadku wywołujemy polecenie: 
 
