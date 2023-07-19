@@ -57,5 +57,12 @@ Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego d
 ## Documentation 
 See these PDF
 
+## Download
+Windows|Linux
+-|-
+ZIP|TAR.GZ
+MD5|MD5
+
+
 ## License
 MIT License
