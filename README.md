@@ -6,7 +6,7 @@ Aby zainstalować Base128, wykonaj następujące kroki:
 
 1. Sklonuj repozytorium z GitHuba: 
 
-``` git clone https://github.com/twój-username/base128.git ``` 
+``` git clone https://github.com/username/base128.git ``` 
 
 2. Przejdź do katalogu z projektem: ``` cd base128 ``` 
 
