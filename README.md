@@ -46,4 +46,5 @@ lub
 ``` ./base128 -d zakodowane.bin >> odkodowane.txt ``` 
 
 To wszystko! 
-Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128. ``
+
+Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128.
