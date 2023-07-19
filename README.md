@@ -78,4 +78,4 @@ MD5|MD5
 
 
 ## License
-[MIT License](/https://opensource.org/license/mit/)https://opensource.org/license/mit/) https://opensource.org/license/mit/
+[MIT License](/https://opensource.org/license/mit/)
