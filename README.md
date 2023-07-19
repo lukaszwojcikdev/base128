@@ -1,4 +1,4 @@
-# Base128 jest narzędziem służącym do kodowania i dekodowania danych w formacie Base128. 
+# Base128 jest narzędziem służącym do kodowania i dekodowania danych w formacie Base128. #
 Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bitowych grup bitów, co umożliwia efektywne przechowywanie i przesyłanie danych. 
 
 ## Instalacja 
@@ -53,3 +53,9 @@ lub
 To wszystko! 
 
 Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128.
+
+## Documentation 
+See these PDF
+
+## License
+MIT License
