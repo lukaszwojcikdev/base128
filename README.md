@@ -11,7 +11,7 @@ Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 - Transport danych:
    - Może być używany do bezpiecznego transportu danych między różnymi składnikami systemu. Obejmuje to bezpieczne przesyłanie haseł, tokenów uwierzytelniających oraz innych wrażliwych informacji przez sieć, gdzie niepożądane odczytywanie lub zmienianie danych stanowi zagrożenie.
 - Pseudonimizacja danych:
-   -  Służyć jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie. Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
+   -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie. Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
 
 
 ## Instalacja 
@@ -78,4 +78,4 @@ MD5|MD5
 
 
 ## License
-MIT License
+[MIT License](/https://opensource.org/license/mit/)https://opensource.org/license/mit/) https://opensource.org/license/mit/
