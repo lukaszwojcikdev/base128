@@ -5,13 +5,17 @@ Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bit
 Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 
 - Ukrywanie danych:
-   - Base128 może być używany do ukrywania danych, które nie są zrozumiałe dla zwykłego oka lub w przypadku przechwycenia przez osobę trzecią. Kodując dane za pomocą Base128, można zapobiec nieuprawnionemu dostępowi do wrażliwych informacji, co ma duże znaczenie w bezpieczeństwie danych.
+   - Base128 może być używany do ukrywania danych, które nie są zrozumiałe dla zwykłego oka lub w przypadku przechwycenia przez osobę trzecią.
+   - Kodując dane za pomocą Base128, można zapobiec nieuprawnionemu dostępowi do wrażliwych informacji, co ma duże znaczenie w bezpieczeństwie danych.
 - Utrudnianie odczytu i manipulacj:
-   - Base128 utrudnia odczytanie i manipulację danych przez niepowołane osoby, ponieważ jest to mniej intuicyjne niż inne popularne formaty kodowania, takie jak Base64. Oznacza to, że jeśli dane zostaną przechwycone przez niepowołane osoby, trudniej będzie im zrozumieć i zmodyfikować te dane.
+   - Base128 utrudnia odczytanie i manipulację danych przez niepowołane osoby, ponieważ jest to mniej intuicyjne niż inne popularne formaty kodowania, takie jak Base64.
+   - Oznacza to, że jeśli dane zostaną przechwycone przez niepowołane osoby, trudniej będzie im zrozumieć i zmodyfikować te dane.
 - Transport danych:
-   - Może być używany do bezpiecznego transportu danych między różnymi składnikami systemu. Obejmuje to bezpieczne przesyłanie haseł, tokenów uwierzytelniających oraz innych wrażliwych informacji przez sieć, gdzie niepożądane odczytywanie lub zmienianie danych stanowi zagrożenie.
+   - Może być używany do bezpiecznego transportu danych między różnymi składnikami systemu.
+   - Obejmuje to bezpieczne przesyłanie haseł, tokenów uwierzytelniających oraz innych wrażliwych informacji przez sieć, gdzie niepożądane odczytywanie lub zmienianie danych stanowi zagrożenie.
 - Pseudonimizacja danych:
-   -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie. Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
+   -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie.
+   -  Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
 
 
 ## Instalacja 
