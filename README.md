@@ -40,7 +40,7 @@ W tej sytuacji wykonujemy polecenie:
 lub
 ``` ./base128 -e dane.txt >> zakodowane.bin ``` 
 
-### Dekodowanie ###
+#### Dekodowanie ####
 Załóżmy, że mamy plik "zakodowane.bin" zawierający dane zakodowane w formacie Base128 i chcemy je zdekodować do pliku "odkodowane.txt". 
 
 W tym przypadku wywołujemy polecenie: 
