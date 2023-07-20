@@ -74,11 +74,11 @@ Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego d
 ## Documentation 
 See these [PDF](http://www.base128.com/base128.com/base128.pdf)
 
-## Download
+## Download base128
 Windows|Linux
 -|-
 [ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
-[MD5](http://www.base128.com/base128.com/base128.zip.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
+[MD5](http://base128.com/base128.com/base128.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
 
 
 ## License
