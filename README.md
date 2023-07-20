@@ -78,7 +78,7 @@ See these [PDF](http://www.base128.com/base128.com/base128.pdf)
 Windows|Linux
 -|-
 [ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
-[MD5](http://base128.com/base128.com/base128.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
+[MD5](http://www.base128.com/base128.com/base128.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
 
 
 ## License
