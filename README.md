@@ -19,15 +19,15 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Contents
 
- - [Zastosowanie](https://github.com/lukaszwojcikdev/base128#Zastosowanie)
- - [Instalacja](https://github.com/lukaszwojcikdev/base128#Instalacja)
- - [Użycie](https://github.com/lukaszwojcikdev/base128#Użycie)
- - [Wsparcie](https://github.com/lukaszwojcikdev/base128#Wsparcie)
- - [Dokumentacja](https://github.com/lukaszwojcikdev/base128#Dokumentacja)
- - [Autor](https://github.com/lukaszwojcikdev/base128#Autor)
- - [Strona](https://github.com/lukaszwojcikdev/base128#Strona)
- - [Pobieranie](https://github.com/lukaszwojcikdev/base128#Pobieranie)
- - [Licencja](https://github.com/lukaszwojcikdev/base128#Licencja)
+ - [Zastosowanie](https://github.com/lukaszwojcikdev/base128#zastosowanie)
+ - [Instalacja](https://github.com/lukaszwojcikdev/base128#instalacja)
+ - [Użycie](https://github.com/lukaszwojcikdev/base128#usageexamples)
+ - [Wsparcie](https://github.com/lukaszwojcikdev/base128#wsparcie)
+ - [Dokumentacja](https://github.com/lukaszwojcikdev/base128#documentation)
+ - [Autor](https://github.com/lukaszwojcikdev/base128#authors)
+ - [Strona](https://github.com/lukaszwojcikdev/base128#site)
+ - [Pobieranie](https://github.com/lukaszwojcikdev/base128#download)
+ - [Licencja](https://github.com/lukaszwojcikdev/base128#license)
 
 ## Zastosowanie
 
