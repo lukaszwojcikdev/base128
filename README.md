@@ -19,7 +19,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Contents
 
- - [Zastosowanie](https://github.com/lukaszwojcikdev/base128#zastosowanie)
+ - [Zastosowanie](#zastosowanie)
  - [Instalacja](https://github.com/lukaszwojcikdev/base128#instalacja)
  - [Użycie](https://github.com/lukaszwojcikdev/base128#usageexamples)
  - [Wsparcie](https://github.com/lukaszwojcikdev/base128#wsparcie)
