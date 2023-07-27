@@ -42,9 +42,10 @@ Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 - Pseudonimizacja danych:
    -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie.
    -  Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
-## Screenshots
+   -  
+## Demo (in production)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/268x150?text=App+Screenshot+Here)
 
 ## Instalacja 
 
