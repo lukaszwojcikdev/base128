@@ -20,14 +20,14 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 ## Contents
 
  - [Zastosowanie](#zastosowanie)
- - [Instalacja](https://github.com/lukaszwojcikdev/base128#instalacja)
- - [Użycie](https://github.com/lukaszwojcikdev/base128#usageexamples)
- - [Wsparcie](https://github.com/lukaszwojcikdev/base128#wsparcie)
- - [Dokumentacja](https://github.com/lukaszwojcikdev/base128#documentation)
- - [Autor](https://github.com/lukaszwojcikdev/base128#authors)
- - [Strona](https://github.com/lukaszwojcikdev/base128#site)
- - [Pobieranie](https://github.com/lukaszwojcikdev/base128#download)
- - [Licencja](https://github.com/lukaszwojcikdev/base128#license)
+ - [Instalacja](#instalacja)
+ - [Użycie](#usageexamples)
+ - [Wsparcie](#wsparcie)
+ - [Dokumentacja](#documentation)
+ - [Autor](#authors)
+ - [Strona](#site)
+ - [Pobieranie](#download)
+ - [Licencja](#license)
 
 ## Zastosowanie
 
