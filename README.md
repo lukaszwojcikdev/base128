@@ -1,7 +1,36 @@
-# Base128 jest narzędziem służącym do kodowania i dekodowania danych w formacie Base128. #
-Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bitowych grup bitów, co umożliwia efektywne przechowywanie i przesyłanie danych. 
+
+![Logo](http://www.base128.com/base128.com/base128/base128.svg)
+
+
+# Base128
+
+Narzędzie OpenSource do kodowania i dekodowania danych tekstowych.
+
+Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bitowych grup bitów, co umożliwia efektywne przechowywanie i przesyłanie danych.
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+
+## Contents
+
+ - [Zastosowanie](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Instalacja](https://github.com/matiassingers/awesome-readme)
+ - [Użycie](https://bulldogjob.com/news/)
+ - [Wsparcie](https://bulldogjob.com/news/)
+ - [Dokumentacja](https://bulldogjob.com/news/)
+ - [Autor](https://bulldogjob.com/news/)
+ - [Strona](https://bulldogjob.com/news/)
+ - [Pobieranie](https://bulldogjob.com/news/)
+ - [Licencja](https://bulldogjob.com/news/)
 
 ## Zastosowanie
+
 Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 
 - Ukrywanie danych:
@@ -16,14 +45,17 @@ Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 - Pseudonimizacja danych:
    -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie.
    -  Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
+## Screenshots
 
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Instalacja 
+
 Aby zainstalować Base128, wykonaj następujące kroki: 
 
 1. Sklonuj repozytorium z GitHuba: 
 
-``` git clone https://github.com/username/base128.git ``` 
+``` git clone https://github.com/lukaszwojcikdev/base128.git ``` 
 
 2. Przejdź do katalogu z projektem: ``` cd base128 ``` 
 
@@ -32,22 +64,35 @@ Aby zainstalować Base128, wykonaj następujące kroki:
 4. Gotowe!
    
 6. Base128 jest teraz gotowe do użycia. 
+## Usage/Examples
 
-## Jak używać ### 
-#### Kodowanie ####
-Aby zakodować dane przy użyciu Base128, wykonaj polecenie: 
+```javascript
+NAME
 
-``` ./base128 -e ``` Gdzie: - ``` jest ścieżką do pliku, który chcesz zakodować, 
+base128 - Encode and Decode text files
 
-- `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zakodowanymi danymi. 
+SYNOPSIS
+base128 [ -e or -d ]
+[ options ] [ input file ] > [ output file ]
+[ example encode: ] base128 -e [ encode.txt ] > [ decode.txt ]
+[ example decode: ] base128 -d [ decode.txt ] > [ encode.txt ]
 
-#### Dekodowanie ####
-Aby zdekodować dane zakodowane w formacie Base128, wykonaj polecenie: 
+base128 is a command line tool that encodes and decodes text files, e.g. *.txt , *.svg , *.html
 
-``` ./base128 -d ``` Gdzie: - `` jest ścieżką do pliku, który chcesz zdekodować, 
-- `` jest ścieżką docelową, gdzie zostanie zapisany plik wyjściowy z zdekodowanymi danymi. 
+OPTIONS
 
-## Przykłady ### 
+-e, --encode
+Converts the input's base128 encoding into an output text file.
+-d, --decode
+Recovers the original input file by decoding the information that was previously encoded using base128.
+-h, --help
+Print instructions for calling and a list of available alternatives.
+--version
+Print the program's version.
+--copyright
+Print copyright information.
+```
+
 #### Kodowanie ####
 Załóżmy, że chcemy zakodować plik "dane.txt" i zapisać zakodowane dane do pliku "zakodowane.bin". 
 
@@ -70,16 +115,36 @@ lub
 To wszystko! 
 
 Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128.
+## Contributing
 
-## Documentation 
-See these [PDF](http://www.base128.com/base128.com/base128.pdf)
+Contributions are always welcome!
 
-## Download base128
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Documentation
+
+[See these PDF](http://www.base128.com/base128.com/base128.pdf)
+
+
+## Authors
+
+- [@lukaszwojcikdev](https://www.github.com/lukaszwojcikdev)
+
+
+## Site
+
+- [www.base128.com](http://www.base128.com)
+- [www.lukaszwojcik.eu](http://www.lukaszwojcik.eu)
+## Download
+
 Windows|Linux
 -|-
 [ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
 [MD5](http://www.base128.com/base128/base128.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
-
-
 ## License
-[MIT License](https://opensource.org/license/mit/)
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
