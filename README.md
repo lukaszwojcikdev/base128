@@ -4,7 +4,7 @@
 
 # Base128
 
-Narzędzie OpenSource do kodowania i dekodowania danych tekstowych.
+> Narzędzie OpenSource do kodowania i dekodowania danych tekstowych.
 
 Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bitowych grup bitów, co umożliwia efektywne przechowywanie i przesyłanie danych.
 
