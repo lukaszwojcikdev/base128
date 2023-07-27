@@ -19,15 +19,15 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Contents
 
- - [Zastosowanie](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Instalacja](https://github.com/matiassingers/awesome-readme)
- - [Użycie](https://bulldogjob.com/news/)
- - [Wsparcie](https://bulldogjob.com/news/)
- - [Dokumentacja](https://bulldogjob.com/news/)
- - [Autor](https://bulldogjob.com/news/)
- - [Strona](https://bulldogjob.com/news/)
- - [Pobieranie](https://bulldogjob.com/news/)
- - [Licencja](https://bulldogjob.com/news/)
+ - [Zastosowanie](https://github.com/lukaszwojcikdev/base128#Zastosowanie)
+ - [Instalacja](https://github.com/lukaszwojcikdev/base128#Instalacja)
+ - [Użycie](https://github.com/lukaszwojcikdev/base128#Użycie)
+ - [Wsparcie](https://github.com/lukaszwojcikdev/base128#Wsparcie)
+ - [Dokumentacja](https://github.com/lukaszwojcikdev/base128#Dokumentacja)
+ - [Autor](https://github.com/lukaszwojcikdev/base128#Autor)
+ - [Strona](https://github.com/lukaszwojcikdev/base128#Strona)
+ - [Pobieranie](https://github.com/lukaszwojcikdev/base128#Pobieranie)
+ - [Licencja](https://github.com/lukaszwojcikdev/base128#Licencja)
 
 ## Zastosowanie
 
