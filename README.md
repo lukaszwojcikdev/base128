@@ -53,17 +53,18 @@ Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
 
 Aby zainstalować Base128, wykonaj następujące kroki: 
 
-1. Sklonuj repozytorium z GitHuba: 
+- Sklonuj repozytorium z GitHuba:
 
 ``` git clone https://github.com/lukaszwojcikdev/base128.git ``` 
 
-2. Przejdź do katalogu z projektem: ``` cd base128 ``` 
+- Przejdź do katalogu z projektem: ``` cd base128 ``` 
 
-3. Skompiluj kod źródłowy: ``` make ``` 
+- Skompiluj kod źródłowy: ``` go build base128.go ```
 
-4. Gotowe!
+- Gotowe! Program został skompilowany dla Windows jako **base128.exe** dla Linux **./base128**
    
-6. Base128 jest teraz gotowe do użycia. 
+- Base128 jest teraz gotowe do użycia.
+   
 ## Usage/Examples
 
 ```javascript
