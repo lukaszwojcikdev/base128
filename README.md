@@ -1,31 +1,13 @@
 
 ![Logo](http://www.base128.com/base128.com/base128/base128.svg)
 
-
-
 # Base128
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
 ![Website](https://img.shields.io/website?url=http%3A%2F%2Fbase128.com)
 ![version](https://img.shields.io/badge/version-1.0-blue)
-
-
-![version](https://img.shields.io/badge/version-1.0-blue)
-
- [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lukasz-michal-wojcik)
-
-
+![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
-
-
-
-![Język programowania: JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow?style=flat-square&logo=javascript) 2. ![Język programowania: Python](https://img.shields.io/badge/Language-Python-blue?style=flat-square&logo=python) 3. ![Język programowania: Java](https://img.shields.io/badge/Language-Java-red?style=flat-square&logo=java) 4. ![Język programowania: C++](https://img.shields.io/badge/Language-C%2B%2B-purple?style=flat-square&logo=c%2B%2B) 5. ![Baza danych: MySQL](https://img.shields.io/badge/Database-MySQL-orange?style=flat-square&logo=mysql)
-
-
-
--|-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)|[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
-[MD5](http://www.base128.com/base128/base128.md5sum/)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
 
 > Narzędzie OpenSource do kodowania i dekodowania danych tekstowych.
 
