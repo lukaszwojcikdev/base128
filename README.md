@@ -9,10 +9,9 @@
 ![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
 
-> Narzędzie OpenSource do kodowania i dekodowania danych tekstowych.
+> OpenSource tool for encoding and decoding text data.
 
-Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bitowych grup bitów, co umożliwia efektywne przechowywanie i przesyłanie danych.
-
+It works by numerically representing the input data with 7-bit groups of bits, which enables efficient data storage and transfer.
 
 ## Contents
 
@@ -26,42 +25,44 @@ Działa na zasadzie reprezentacji liczbowej danych wejściowych za pomocą 7-bit
  - [Pobieranie](#download)
  - [Licencja](#license)
 
-## Zastosowanie
+## Application
 
-Oto kilka przykładów zastosowań w kontekście bezpieczeństwa base128:
+Here are some examples of uses in the context of base128 security:
 
-- Ukrywanie danych:
-   - Base128 może być używany do ukrywania danych, które nie są zrozumiałe dla zwykłego oka lub w przypadku przechwycenia przez osobę trzecią.
-   - Kodując dane za pomocą Base128, można zapobiec nieuprawnionemu dostępowi do wrażliwych informacji, co ma duże znaczenie w bezpieczeństwie danych.
-- Utrudnianie odczytu i manipulacj:
-   - Base128 utrudnia odczytanie i manipulację danych przez niepowołane osoby, ponieważ jest to mniej intuicyjne niż inne popularne formaty kodowania, takie jak Base64.
-   - Oznacza to, że jeśli dane zostaną przechwycone przez niepowołane osoby, trudniej będzie im zrozumieć i zmodyfikować te dane.
-- Transport danych:
-   - Może być używany do bezpiecznego transportu danych między różnymi składnikami systemu.
-   - Obejmuje to bezpieczne przesyłanie haseł, tokenów uwierzytelniających oraz innych wrażliwych informacji przez sieć, gdzie niepożądane odczytywanie lub zmienianie danych stanowi zagrożenie.
-- Pseudonimizacja danych:
-   -  Służy jako narzędzie do pseudonimizacji danych, pozwalając na dostęp do danych przedstawionych w innym, nieodwracalnym formacie.
-   -  Można to wykorzystać w kontekście analizy danych i zabezpieczania wrażliwych informacji przed nieuprawnionym dostępem.
-   -  
+- Data hiding:
+    - Base128 can be used to hide data that is not understandable to the naked eye or when intercepted by a third party.
+    - By encoding data with Base128, unauthorized access to sensitive information can be prevented, which is of great importance in data security.
+- Obstruction of reading and manipulation:
+    - Base128 makes it difficult for unauthorized persons to read and manipulate data because it is less intuitive than other popular encoding formats such as Base64.
+    - This means that if the data is intercepted by unauthorized persons, it will be more difficult for them to understand and modify this data.
+- Data transport:
+    - Can be used to securely transport data between various system components.
+    - This includes the secure transmission of passwords, authentication tokens and other sensitive information over a network where undesirable reading or alteration of data is a threat.
+- Pseudonymization of data:
+    - Serves as a data pseudonymization tool, allowing access to data presented in a different, irreversible format.
+    - This can be used in the context of data analysis and protecting sensitive information from unauthorized access.
+      
 ## Demo (in production)
 
 ![App Screenshot](https://via.placeholder.com/268x150?text=App+Screenshot+Here)
 
-## Instalacja 
 
-Aby zainstalować Base128, wykonaj następujące kroki: 
+## Instalation
 
-- Sklonuj repozytorium z GitHuba:
+To install Base128, follow these steps:
+
+- Clone repository from GitHub:
 
 ``` git clone https://github.com/lukaszwojcikdev/base128.git ``` 
 
-- Przejdź do katalogu z projektem: ``` cd base128 ``` 
+- Go to the project directory: ``` cd base128 ``` 
 
-- Skompiluj kod źródłowy: ``` go build base128.go ```
+- Compile the source code: ``` go build base128.go ```
 
-- Gotowe! Program został skompilowany dla Windows jako **base128.exe** dla Linux **./base128**
+- Ready! The program was compiled for Windows as **base128.exe** for Linux **./base128**
    
-- Base128 jest teraz gotowe do użycia.
+- Base128 is now ready to use.
+  
    
 ## Usage/Examples
 
@@ -92,28 +93,29 @@ Print the program's version.
 Print copyright information.
 ```
 
-#### Kodowanie ####
-Załóżmy, że chcemy zakodować plik "dane.txt" i zapisać zakodowane dane do pliku "zakodowane.bin". 
+#### Coding ####
+Suppose we want to encode the file "data.txt" and save the encoded data to the file "encode.bin".
 
-W tej sytuacji wykonujemy polecenie: 
+In this situation, we execute the command:
 
-``` ./base128 -e dane.txt zakodowane.bin ``` 
-lub
-``` ./base128 -e dane.txt >> zakodowane.bin ``` 
+``` ./base128 -e data.txt encode.bin ``` 
+or
+``` ./base128 -e data.txt >> encode.bin ``` 
 
-#### Dekodowanie ####
-Załóżmy, że mamy plik "zakodowane.bin" zawierający dane zakodowane w formacie Base128 i chcemy je zdekodować do pliku "odkodowane.txt". 
+#### Decoding ####
+Suppose we have a file "encoded.bin" containing data encoded in Base128 format and we want to decode it into a file "decoded.txt".
 
-W tym przypadku wywołujemy polecenie: 
+In this case, we invoke the command:
 
-``` ./base128 -d zakodowane.bin odkodowane.txt ``` 
-lub
+``` ./base128 -d encoded.bin decoded.txt ``` 
+or
 
-``` ./base128 -d zakodowane.bin >> odkodowane.txt ``` 
+``` ./base128 -d encoded.bin >> decoded.txt ``` 
 
-To wszystko! 
+That's all!
 
-Teraz powinieneś być w stanie zainstalować Base128 oraz skorzystać z niego do kodowania i dekodowania danych przy użyciu formatu Base128.
+Now you should be able to install Base128 and use it to encode and decode data using the Base128 format.
+
 ## Contributing
 
 Contributions are always welcome!
