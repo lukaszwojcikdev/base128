@@ -1,5 +1,5 @@
 
-![Logo](http://www.base128.com/base128.com/base128/base128.svg)
+![Logo](http://www.base128.com/base128.com/base128.svg)
 
 # Base128
 
