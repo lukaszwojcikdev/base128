@@ -149,7 +149,7 @@ Please adhere to this project's `code of conduct`.
 Windows|Linux
 -|-
 [ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
-[MD5](http://www.base128.com/base128/base128md5sum.md5)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
+[MD5](http://www.base128.com/base128.com/base128md5sum.md5)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
