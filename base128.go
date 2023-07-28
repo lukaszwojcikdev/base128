@@ -67,7 +67,7 @@ func decodeBase128(input []int) string {
 
 //The main function of the program that contains the logic of the program.
 //Read program call flags, such as "-e" for encoding or "-d" for decoding.
-//Then it reads input from file or standard input and processes it with the appropriate function.
+//Then it reads input from 'file' or standard input and processes it with the appropriate function.
 //The result is displayed on standard output.
 func main() {
 	encodeFlag := flag.Bool("e", false, "Converts the input's base128 encoding into an output text file.")
@@ -77,7 +77,8 @@ func main() {
 	copyrightFlag := flag.Bool("copyright", false, "Print copyright information.")
 	flag.Parse()
 
-	
+	//This snippet displays information about the base128 program, the invocation instructions, and the available options. 
+	//If the '*helpFlag' is set to "true", the code will display the appropriate messages and then terminate the program.
 	if *helpFlag {
 		fmt.Println("base128 - Encodes or decodes FILE, or standard input, to standard output or a file as base128.")
 		fmt.Println("base128 [OPTION]... [FILE input] > [FILE output]")
@@ -98,21 +99,29 @@ func main() {
 		os.Exit(0)
 	}
 
+	//Displays information about the current version of base128, then exits the program.
 	if *versionFlag {
 		fmt.Println("base128 version 1.0/2023")
 		os.Exit(0)
 	}
-
+	
+	//Displays base128's copyright and program author information, then exits the program.
 	if *copyrightFlag {
 		fmt.Println("base128 (C) 2023 by Lukasz Wojcik")
 		os.Exit(0)
 	}
 
+	//Checks if both *encodeFlag and *decodeFlag are set to true at the same time. 
+	//If so, it prints an error message on stdout using fmt.Fprintln using os.Stderr and exits with an error code of 1. 
+	//The message informs the user that he cannot specify a flag for both encoding and decoding at the same time, and suggests using the flag help (*helpFlag) for more information.
 	if *encodeFlag && *decodeFlag {
 		fmt.Fprintln(os.Stderr, "base128: cannot specify. Please -e for ENCODE or -d for DECODE or -h for HELP")
 		os.Exit(1)
 	}
 
+	//This snippet checks that neither of the *encodeFlag and *decodeFlag flags are set to true. 
+	//If so, the code prints an error message to stdout using fmt.Fprintln and os.Stderr and exits the program with an error code of 1. 
+	//The message informs the user that he has not specified any flag for encoding or decoding and suggests the use of a flag help (*helpFlag) for more information.
 	if !*encodeFlag && !*decodeFlag {
 		fmt.Fprintln(os.Stderr, "base128: cannot specify. Please -e for ENCODE or -d for DECODE or -h for HELP")
 		os.Exit(1)
