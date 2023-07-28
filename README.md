@@ -15,15 +15,15 @@ It works by numerically representing the input data with 7-bit groups of bits, w
 
 ## Contents
 
- - [Zastosowanie](#zastosowanie)
- - [Instalacja](#instalacja)
- - [Użycie](#usageexamples)
- - [Wsparcie](#contributing)
- - [Dokumentacja](#documentation)
- - [Autor](#authors)
- - [Strona](#site)
- - [Pobieranie](#download)
- - [Licencja](#license)
+ - [Application](#application)
+ - [Instalation](#instalation)
+ - [Usage/Examples](#usageexamples)
+ - [Contributing](#contributing)
+ - [Documentation](#documentation)
+ - [Autor](#author)
+ - [Site](#site)
+ - [Download](#download)
+ - [License](#license)
 
 ## Application
 
@@ -130,7 +130,7 @@ Please adhere to this project's `code of conduct`.
 [See these PDF](http://www.base128.com/base128.com/base128.pdf)
 
 
-## Authors
+## Author
 
 - [@lukaszwojcikdev](https://www.github.com/lukaszwojcikdev)
 
