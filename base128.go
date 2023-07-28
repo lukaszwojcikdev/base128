@@ -127,6 +127,11 @@ func main() {
 		os.Exit(1)
 	}
 
+	//Checking if the program was started with some command line argument. 
+	//If not, or if the first argument is "-", the program reads input from standard input. 
+	//Otherwise, the program reads input from the file named as the first argument. 
+	//Then, the read data is processed and assigned to the "input" variable after removing the whitespace from the beginning and the end. 
+	//If any error occurs while reading the data, the program returns an error and exits.
 	args := flag.Args()
 	var input string
 	if len(args) == 0 || args[0] == "-" {
@@ -143,6 +148,18 @@ func main() {
 		input = strings.TrimSpace(string(bytes))
 	}
 
+	//Checks the values of the *encodeFlag and *decodeFlag flags. 
+	//Depending on the value of the flag, it performs the appropriate operations.
+	//If *encodeFlag or *decodeFlag is set to true, it means that the program is to encode/decode the input. 
+	//The input data is processed:
+	//1. Remove newlines ("\n") and carriage returns ("\r") from variable “input”.
+	//2. Removing whitespace from the beginning and end of the "input" variable.
+	//3. Calling the encodeBase128 function on the "input" variable, which converts the input data to numbers in Base128 format.
+	//4. Converting the generated numbers into text, which are combined into one line and square brackets are removed.
+	//5. Dividing the "input" variable into numbers in text form separated by a space.
+	//6. Create a "numbers" slice of length equal to the number of separated numbers, convert each number to int and store them in the slice.
+	//7. Calling the decodeBase128 function on the "numbers" slice, which converts numbers in Base128 format to input data.
+	//8. Displaying the result on the standard output.
 	if *encodeFlag {
 		input = strings.Replace(input, "\n", "", -1)
 		input = strings.Replace(input, "\r", "", -1)
