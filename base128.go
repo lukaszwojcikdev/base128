@@ -40,8 +40,12 @@ import (
 	"strings"
 )
 
+//We define a "base" constant of 128, which defines the encoding range.
 const base = 128
 
+//Function to encode data using Base128 data.
+//Takes a text string as an argument and returns a sequence of integers representing it.
+//Each character from the text is converted to the corresponding number in the range 0-127.
 func encodeBase128(input string) []int {
 	result := []int{}
 	for _, char := range input {
@@ -50,6 +54,9 @@ func encodeBase128(input string) []int {
 	return result
 }
 
+//Function to decode Base128 data.
+//Takes a sequence of integers as an argument and converts them to raw text.
+//Each number is converted to its corresponding letter or special character.
 func decodeBase128(input []int) string {
 	result := ""
 	for _, code := range input {
@@ -58,6 +65,10 @@ func decodeBase128(input []int) string {
 	return result
 }
 
+//The main function of the program that contains the logic of the program.
+//Read program call flags, such as "-e" for encoding or "-d" for decoding.
+//Then it reads input from file or standard input and processes it with the appropriate function.
+//The result is displayed on standard output.
 func main() {
 	encodeFlag := flag.Bool("e", false, "Converts the input's base128 encoding into an output text file.")
 	decodeFlag := flag.Bool("d", false, "Recovers the original input file by decoding the information that was previously encoded using base128.")
@@ -66,6 +77,7 @@ func main() {
 	copyrightFlag := flag.Bool("copyright", false, "Print copyright information.")
 	flag.Parse()
 
+	
 	if *helpFlag {
 		fmt.Println("base128 - Encodes or decodes FILE, or standard input, to standard output or a file as base128.")
 		fmt.Println("base128 [OPTION]... [FILE input] > [FILE output]")
