@@ -125,9 +125,7 @@ Now you should be able to install Base128 and use it to encode and decode data u
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+See `[contributing.md](https://github.com/lukaszwojcikdev/base128/edit/main/CONTRIBUTING.md)` for ways to get started.
 
 
 ## Documentation
@@ -144,12 +142,19 @@ Please adhere to this project's `code of conduct`.
 
 - [www.base128.com](http://www.base128.com)
 - [www.lukaszwojcik.eu](http://www.lukaszwojcik.eu)
+
+## Donation
+
+Support this project
+If you find Base128 useful and would like to support its development, follow these steps:
+
+PayPal [one-time donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=)
+  
 ## Download
 
 Windows|Linux
 -|-
 [ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
-[MD5](http://www.base128.com/base128.com/base128md5sum.md5)|[MD5](http://www.base128.com/base128.com/base128.tar.gz.md5sum)
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
