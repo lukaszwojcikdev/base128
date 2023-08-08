@@ -27,6 +27,7 @@ It works by numerically representing the input data with 7-bit groups of bits, w
  - [Documentation](#documentation)
  - [Autor](#author)
  - [Site](#site)
+ - [Donation](#donation)
  - [Download](#download)
  - [License](#license)
 
@@ -125,7 +126,7 @@ Now you should be able to install Base128 and use it to encode and decode data u
 
 Contributions are always welcome!
 
-See `[contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/CONTRIBUTING.MD)` for ways to get started.
+See file [contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/CONTRIBUTING.MD) for ways to get started.
 
 
 ## Documentation
