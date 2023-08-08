@@ -149,7 +149,7 @@ See file [contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/
 Support this project
 If you find Base128 useful and would like to support its development, follow these steps:
 
-PayPal [one-time donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=)
+PayPal [one-time donation](https://www.paypal.com/pools/c/8WyAdpeAdq)
   
 ## Download
 
