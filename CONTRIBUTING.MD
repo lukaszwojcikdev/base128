@@ -1,61 +1,60 @@
 
-# Współtworzenie (CONTRIBUTING.MD)
+# Contribution (CONTRIBUTING.MD)
 
-Dziękujemy za zainteresowanie współtworzeniem projektu Base128! 
-Chcemy, abyś poczuł się mile widziany i mógł przyczynić się do rozwoju projektu. 
-Poniżej znajdziesz informacje, które pomogą Ci zacząć.
+Thank you for your interest in contributing to the Base128 project.
+We hope you feel welcome and can contribute to the development of the project.
+Below is some information to help you get started.
 
-## Raportowanie problemów
+## Problem reporting
 
-Jeśli napotkasz problem lub błąd w projekcie, możesz zgłosić go przez [tworzenie nowego zgłoszenia](https://github.com/lukaszwojcikdev/base128/issues/new). 
-Upewnij się, że opisujesz problem jak najdokładniej, podając kroki, które prowadzą do wystąpienia błędu.
- Dodatkowo, jeśli możesz, dołącz także informacje o środowisku (system operacyjny, wersja języka programowania itp.).
+If you encounter any issues or bugs with the project, you can [create a new issue](https://github.com/lukaszwojcikdev/base128/issues/new) to report them.
+Please describe the problem as precisely as possible, including the steps leading up to the error.
+If possible, please also provide information about your environment (operating system, programming language version, etc.).
 
-## Wstępne wymagania
+## Prerequisites
 
-Przed zgłoszeniem lub zaakceptowaniem zmian, upewnij się, że spełniasz poniższe wymagania:
+Before submitting or approving your changes, make sure you meet the following requirements:
 
-- Zgłoszenia powinny być zgodne z konwencjami i wytycznymi stylu kodowania w projekcie.
-- Kod powinien być przetestowany i posiadać odpowiednie testy jednostkowe (o ile takie  istnieją).
-- Zmiany powinny być zgodne z obecną architekturą i designem projektu.
+- Submissions must follow project conventions and coding style guidelines.
+- You must test your code and have proper unit tests (if any).
+- Changes must be consistent with the current architecture and design of the project.
 
-## Proces przeglądu kodu
+## Code review process
 
-Przed zaakceptowaniem zmian, będziemy przeprowadzać proces przeglądu kodu, aby ocenić jakość i zgodność ze standardami projektu. Oto kilka wskazówek dotyczących procesu przeglądu kodu:
+Conduct a code review process to assess quality and adherence to project standards before accepting changes.
+Here are some tips for the code review process.
 
-- Staraj się dostarczyć jasny opis wprowadzonych zmian w komentarzu do pull requesta.
-- Odpowiednio komentuj swój kod, aby inni łatwo mogli zrozumieć Twoje intencje.
-- Bądź otwarty na sugestie i uwagi od innych współautorów projektu.
+- Please try to provide a clear explanation of the changes made in the pull request comments.
+- Comment your code appropriately so that others can easily understand your intentions.
+- Openly accept suggestions and comments from other project collaborators.
 
-## Wkładanie zmian
+## Inserting changes
 
-Jeśli chcesz przyczynić się do projektu i wprowadzić zmiany, zapraszamy do skorzystania z następującego procesu:
+If you would like to contribute and make changes to the project, we recommend using the following process.
 
-1. Sklonuj repozytorium na własne konto: `git clone https://github.com/lukaszwojcikdev/base128.git`
-2. Utwórz nowy branch dla swojej pracy: `git checkout -b nazwa-brancha`
-3. Dokonaj odpowiednich zmian w kodzie.
-4. Napisz testy jednostkowe dla wprowadzonych zmian.
-5. Upewnij się, że wszystkie testy przechodzą: `go test`
-6. Zamień swoje zmiany na repozytorium: `git push origin nazwa-brancha`
-7. Stwórz nowy [pull request](https://github.com/lukaszwojcikdev/base128/pulls) opisujący wprowadzone zmiany.
+1. Clone the repository to your account: `git clone https://github.com/lukaszwojcikdev/base128.git`.
+2. Create a new branch `git checkout -b branchname` for your work.
+3. Make the appropriate changes to your code. 
+4. Create unit tests for your changes. 
+5. Confirm that all tests were successful: `go test.
+6. Push your changes to the repository `git push origin branchname`.
+7. Create a new [pull request](https://github.com/lukaszwojcikdev/base128/pulls) describing the changes made.
 
-## Style i zasady kodowania
+## Coding styles and rules
 
-Proszę trzymać się poniższych zasad, aby utrzymać spójność i czytelność kodu:
+To keep your code consistent and readable, follow these rules:
 
-- Używaj języka angielskiego do nazywania zmiennych, funkcji i komentarzy.
-- Stosuj zrozumiałe i opisowe nazwy dla zmiennych i funkcji.
-- Stosuj odpowiednie wcięcia i formatowanie kodu zgodnie z konwencją w języku Go.
+- Use English for names of variables, functions and comments.
+- Use clear and meaningful names for variables and functions.
+- Use proper indentation and code formatting according to Go conventions.
 
-## Licencja
+## License
 
-Projekt Base128 jest objęty licencją [MIT](https://github.com/lukaszwojcikdev/base128/blob/main/LICENSE). 
-Wysyłając zgłoszenia, zgadzasz się na udostępnienie wprowadzonych zmian na licencji MIT.
+The Base128 project is licensed under the [MIT](https://github.com/lukaszwojcikdev/base128/blob/main/LICENSE) license.
+By submitting your post, you agree that any changes made will be made available under the MIT license.
 
- Jeśli masz jakiekolwiek pytania dotyczące wymagań, procesu przeglądu kodu lub licencji, nie wahaj się skontaktować z nami. 
- Dziękujemy za Twój wkład i chęć współtworzenia projektu Base128!
+If you have any questions about requirements, code review process, or licensing, feel free to contact us.
+Thank you for your contributions and active contributions to the Base128 project.
 
 ```
 
-Pamiętaj, że powyższy przykład jest tylko szkieletem CONTRIBUTING.md. 
-Możesz dostosować go do swojego projektu, dodając odpowiednie sekcje dotyczące wytycznych style i zasad kodowania, a także inne informacje, które uważasz za istotne dla współtwórców Twojego projektu.
