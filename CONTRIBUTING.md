@@ -2,6 +2,7 @@
 # Contribution
 
 Thank you for your interest in contributing to the Base128 project.
+
 We hope you feel welcome and can contribute to the development of the project.
 Below is some information to help you get started.
 
@@ -32,12 +33,12 @@ Here are some tips for the code review process.
 
 If you would like to contribute and make changes to the project, we recommend using the following process.
 
-1. Clone the repository to your account: `git clone https://github.com/lukaszwojcikdev/base128.git`.
+1. Clone the repository to your account: `git clone https://github.com/lukaszwojcikdev/base128.git`
 2. Create a new branch `git checkout -b branchname` for your work.
 3. Make the appropriate changes to your code. 
 4. Create unit tests for your changes. 
-5. Confirm that all tests were successful: `go test.
-6. Push your changes to the repository `git push origin branchname`.
+5. Confirm that all tests were successful: `go test`
+6. Push your changes to the repository `git push origin branchname`
 7. Create a new [pull request](https://github.com/lukaszwojcikdev/base128/pulls) describing the changes made.
 
 ## Coding styles and rules
