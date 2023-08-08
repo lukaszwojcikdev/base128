@@ -1,5 +1,5 @@
 
-# Contribution (CONTRIBUTING.MD)
+# Contribution
 
 Thank you for your interest in contributing to the Base128 project.
 We hope you feel welcome and can contribute to the development of the project.
