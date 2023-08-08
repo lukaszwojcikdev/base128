@@ -125,7 +125,7 @@ Now you should be able to install Base128 and use it to encode and decode data u
 
 Contributions are always welcome!
 
-See `[contributing.md](https://github.com/lukaszwojcikdev/base128/edit/main/CONTRIBUTING.md)` for ways to get started.
+See `[contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/CONTRIBUTING.MD)` for ways to get started.
 
 
 ## Documentation
