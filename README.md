@@ -154,7 +154,8 @@ PayPal [one-time donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&h
 
 Windows|Linux
 -|-
-[ZIP](http://www.base128.com/base128.com/base128.zip)|[TAR.GZ](http://www.base128.com/base128.com/base128.tar.gz)
+[ZIP](http://www.base128.com/base128.com/base128.zip)|
+[MD5](http://www.base128.com/base128/base128.md5sum/)|
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
