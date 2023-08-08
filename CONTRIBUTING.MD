@@ -51,9 +51,11 @@ To keep your code consistent and readable, follow these rules:
 ## License
 
 The Base128 project is licensed under the [MIT](https://github.com/lukaszwojcikdev/base128/blob/main/LICENSE) license.
+
 By submitting your post, you agree that any changes made will be made available under the MIT license.
 
 If you have any questions about requirements, code review process, or licensing, feel free to contact us.
+
 Thank you for your contributions and active contributions to the Base128 project.
 
 ```
