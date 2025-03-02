@@ -33,60 +33,74 @@ It works by numerically representing the input data with 7-bit groups of bits, w
 
 ## Application
 
-Here are some examples of uses in the context of base128 security:
+Here are some examples of uses in the context of **Base128 text data transformation**:
 
-- Data hiding:
-    - Base128 can be used to hide data that is not understandable to the naked eye or when intercepted by a third party.
-    - By encoding data with Base128, unauthorized access to sensitive information can be prevented, which is of great importance in data security.
-- Obstruction of reading and manipulation:
-    - Base128 makes it difficult for unauthorized persons to read and manipulate data because it is less intuitive than other popular encoding formats such as Base64.
-    - This means that if the data is intercepted by unauthorized persons, it will be more difficult for them to understand and modify this data.
-- Data transport:
-    - Can be used to securely transport data between various system components.
-    - This includes the secure transmission of passwords, authentication tokens and other sensitive information over a network where undesirable reading or alteration of data is a threat.
-- Pseudonymization of data:
-    - Serves as a data pseudonymization tool, allowing access to data presented in a different, irreversible format.
-    - This can be used in the context of data analysis and protecting sensitive information from unauthorized access.
-      
-## Demo (in production)
+### **Text Data Transformation**
+- **Base128** can be used to transform text data into a sequence of integers, making it less human-readable.
+- This can be useful for scenarios where text data needs to be represented in a numeric format, such as storing text as a list of integers in a database.
+
+### **Educational Purposes**
+- The program serves as a simple tool to demonstrate basic encoding and decoding concepts.
+- It can be used to teach how text characters are mapped to their ASCII values and vice versa.
+
+### **Data Representation**
+- **Base128** can be used to represent text data in a numeric format, which may be useful in certain data processing or storage scenarios.
+- Example: Encoding a message like `"Hello"` into `72 101 108 108 111`.
+
+## **Limitations**
+- **Text-Only Support**: The program is designed to work with **text data** and does not support binary data. Attempting to encode or decode binary data may result in errors or incorrect output.
+- **No Compression or Security**: The algorithm does not compress data or provide encryption. It simply converts text to a sequence of integers and vice versa.
+- **Limited Character Range**: The algorithm works with characters in the range 0-127 (ASCII), which means it cannot handle extended character sets or binary data.
+
+## **Demo (in production)**
 
 ![App Screenshot](https://via.placeholder.com/268x150?text=App+Screenshot+Here)
 
+## **Installation**
 
-## Instalation
+To install **Base128**, follow these steps:
 
-To install Base128, follow these steps:
+1. **Clone the repository from GitHub**:
+   ```bash
+   git clone https://github.com/lukaszwojcikdev/base128.git
+   ```
 
-- Clone repository from GitHub:
+2. **Go to the project directory**:
+   ```bash
+   cd base128
+   ```
 
-``` git clone https://github.com/lukaszwojcikdev/base128.git ``` 
+3. **Compile the source code**:
+   ```bash
+   go build base128.go
+   ```
 
-- Go to the project directory: ``` cd base128 ``` 
+4. **Ready!** The program is now compiled:
+   - For Windows: **`base128.exe`**
+   - For Linux: **`./base128`**
 
-- Compile the source code: ``` go build base128.go ```
-
-- Ready! The program was compiled for Windows as **base128.exe** for Linux **./base128**
-   
-- Base128 is now ready to use.
+5. **Base128** is now ready to use.
   
    
 ## Usage/Examples
 
 ```javascript
+  __________                          ____ ________    ______
+  \______   \_____     ______  ____  /_   |\_____  \  /  __  \
+   |    |  _/\__  \   /  ___/_/ __ \  |   | /  ____/  >      <
+   |    |   \ / __ \_ \___ \ \  ___/  |   |/       \ /   --   \
+   |______  /(____  //____  > \___  > |___|\_______ \\______  /
+          \/      \/      \/      \/               \/       \/
 NAME
-
-base128 - Encode and Decode text files
-
+base128 - encodes or decodes a text file on standard input and standard output
 SYNOPSIS
 base128 [ -e or -d ]
 [ options ] [ input file ] > [ output file ]
-[ example encode: ] base128 -e [ encode.txt ] > [ decode.txt ]
-[ example decode: ] base128 -d [ decode.txt ] > [ encode.txt ]
-
-base128 is a command line tool that encodes and decodes text files, e.g. *.txt , *.svg , *.html
+[ example encode: ] base128 -e [ encode_text.txt ] > [ decode_text.txt ]
+[ example decode: ] base128 -d [ decode_text.txt ] > [ encode2_text.txt ]
+base128 Is a command line tool that encodes and decodes text files, e.g. *.txt , *.svg , *.html
 
 OPTIONS
-
 -e, --encode
 Converts the input's base128 encoding into an output text file.
 -d, --decode
@@ -99,39 +113,40 @@ Print the program's version.
 Print copyright information.
 ```
 
-#### Coding ####
-Suppose we want to encode the file "data.txt" and save the encoded data to the file "encode.bin".
+## **Usage**
 
-In this situation, we execute the command:
+### **Encoding**
+Suppose we want to encode the file `data.txt` and save the encoded data to the file `encode.txt`.
 
-``` ./base128 -e data.txt encode.bin ``` 
-or
-``` ./base128 -e data.txt >> encode.bin ``` 
+In this situation, execute the command:
+```bash
+./base128 -e data.txt > encode.txt
+```
 
-#### Decoding ####
-Suppose we have a file "encoded.bin" containing data encoded in Base128 format and we want to decode it into a file "decoded.txt".
+### **Decoding**
+Suppose we have a file `encoded.txt` containing data encoded in Base128 format, and we want to decode it into a file `decoded.txt`.
 
-In this case, we invoke the command:
+In this case, invoke the command:
+```bash
+./base128 -d encoded.txt > decoded.txt
+```
 
-``` ./base128 -d encoded.bin decoded.txt ``` 
-or
+That's all! Now you should be able to install **Base128** and use it to encode and decode text data using the Base128 format.
 
-``` ./base128 -d encoded.bin >> decoded.txt ``` 
 
-That's all!
+## **Contributing**
 
-Now you should be able to install Base128 and use it to encode and decode data using the Base128 format.
+Contributions are always welcome! If you'd like to contribute to the development of **Base128**, please follow these steps:
 
-## Contributing
-
-Contributions are always welcome!
-
-See file [contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/CONTRIBUTING.MD) for ways to get started.
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and ensure the code is properly tested.
+4. Submit a pull request with a detailed description of your changes.
 
 
 ## Documentation
 
-[See these PDF](http://www.base128.com/base128.com/base128.pdf)
+[See these PDF](http://www.base128.pl/base128_source_code.pdf)
 
 
 ## Author
@@ -141,22 +156,15 @@ See file [contributing.md](https://github.com/lukaszwojcikdev/base128/blob/main/
 
 ## Site
 
-- [www.base128.com](http://www.base128.com)
+- [www.base128.pl](http://www.base128.pl)
 - [www.lukaszwojcik.eu](http://www.lukaszwojcik.eu)
-
-## Donation
-
-Support this project
-If you find Base128 useful and would like to support its development, follow these steps:
-
-PayPal [one-time donation](https://www.paypal.com/pools/c/8WyAdpeAdq)
   
 ## Download
 
 Windows|Linux
 -|-
-[ZIP](http://www.base128.com/base128.com/base128.zip)|
-[MD5](http://www.base128.com/base128/base128.md5sum/)|
+[ZIP](http://www.base128.pl/base128.zip)|
+[MD5](http://www.base128.pl/base128.md5sum/)|
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
