@@ -9,7 +9,7 @@
 # Base128
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
-![Website](https://img.shields.io/website?url=http%3A%2F%2Fbase128.com)
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fbase128.pl)
 ![version](https://img.shields.io/badge/version-2.0-blue)
 ![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
