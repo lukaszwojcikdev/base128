@@ -1,171 +1,232 @@
+<div align="center">
+
 ```
-  __________                          ____ ________    ______  
-  \______   \_____     ______  ____  /_   |\_____  \  /  __  \ 
-   |    |  _/\__  \   /  ___/_/ __ \  |   | /  ____/  >      < 
-   |    |   \ / __ \_ \___ \ \  ___/  |   |/       \ /   --   \
-   |______  /(____  //____  > \___  > |___|\_______ \\______  /
-          \/      \/      \/      \/               \/       \/
-```
-# Base128
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fbase128.pl)
-![version](https://img.shields.io/badge/version-2.0-blue)
-![Golang](https://img.shields.io/badge/-Golang-00ADD8?logo=Go&logoColor=white&style=flat)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
-
-> OpenSource tool for encoding and decoding text data.
-
-It works by numerically representing the input data with 7-bit groups of bits, which enables efficient data storage and transfer.
-
-## Contents
-
- - [Application](#application)
- - [Instalation](#instalation)
- - [Usage/Examples](#usageexamples)
- - [Contributing](#contributing)
- - [Documentation](#documentation)
- - [Autor](#author)
- - [Site](#site)
- - [Donation](#donation)
- - [Download](#download)
- - [License](#license)
-
-## Application
-
-Here are some examples of uses in the context of **Base128 text data transformation**:
-
-### **Text Data Transformation**
-- **Base128** can be used to transform text data into a sequence of integers, making it less human-readable.
-- This can be useful for scenarios where text data needs to be represented in a numeric format, such as storing text as a list of integers in a database.
-
-### **Educational Purposes**
-- The program serves as a simple tool to demonstrate basic encoding and decoding concepts.
-- It can be used to teach how text characters are mapped to their ASCII values and vice versa.
-
-### **Data Representation**
-- **Base128** can be used to represent text data in a numeric format, which may be useful in certain data processing or storage scenarios.
-- Example: Encoding a message like `"Hello"` into `72 101 108 108 111`.
-
-## **Limitations**
-- **Text-Only Support**: The program is designed to work with **text data** and does not support binary data. Attempting to encode or decode binary data may result in errors or incorrect output.
-- **No Compression or Security**: The algorithm does not compress data or provide encryption. It simply converts text to a sequence of integers and vice versa.
-- **Limited Character Range**: The algorithm works with characters in the range 0-127 (ASCII), which means it cannot handle extended character sets or binary data.
-
-## **Demo (in production)**
-
-![App Screenshot](https://via.placeholder.com/268x150?text=App+Screenshot+Here)
-
-## **Installation**
-
-To install **Base128**, follow these steps:
-
-1. **Clone the repository from GitHub**:
-   ```bash
-   git clone https://github.com/lukaszwojcikdev/base128.git
-   ```
-
-2. **Go to the project directory**:
-   ```bash
-   cd base128
-   ```
-
-3. **Compile the source code**:
-   ```bash
-   go build base128.go
-   ```
-
-4. **Ready!** The program is now compiled:
-   - For Windows: **`base128.exe`**
-   - For Linux: **`./base128`**
-
-5. **Base128** is now ready to use.
-  
-   
-## Usage/Examples
-
-```javascript
   __________                          ____ ________    ______
   \______   \_____     ______  ____  /_   |\_____  \  /  __  \
    |    |  _/\__  \   /  ___/_/ __ \  |   | /  ____/  >      <
    |    |   \ / __ \_ \___ \ \  ___/  |   |/       \ /   --   \
    |______  /(____  //____  > \___  > |___|\_______ \\______  /
           \/      \/      \/      \/               \/       \/
-NAME
-base128 - encodes or decodes a text file on standard input and standard output
-SYNOPSIS
-base128 [ -e or -d ]
-[ options ] [ input file ] > [ output file ]
-[ example encode: ] base128 -e [ encode_text.txt ] > [ decode_text.txt ]
-[ example decode: ] base128 -d [ decode_text.txt ] > [ encode2_text.txt ]
-base128 Is a command line tool that encodes and decodes text files, e.g. *.txt , *.svg , *.html
-
-OPTIONS
--e, --encode
-Converts the input's base128 encoding into an output text file.
--d, --decode
-Recovers the original input file by decoding the information that was previously encoded using base128.
--h, --help
-Print instructions for calling and a list of available alternatives.
---version
-Print the program's version.
---copyright
-Print copyright information.
 ```
 
-## **Usage**
+# Base128
 
-### **Encoding**
-Suppose we want to encode the file `data.txt` and save the encoded data to the file `encode.txt`.
+**A simple, open-source tool for encoding and decoding text data — available in Go and Python.**
 
-In this situation, execute the command:
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.base128.pl)](http://www.base128.pl)
+[![Version](https://img.shields.io/badge/version-2.1-blue)](#)
+[![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=flat)](https://go.dev)
+[![Python](https://img.shields.io/badge/-Python%203.10%2B-3776AB?logo=python&logoColor=white&style=flat)](https://www.python.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/lukasz-michal-wojcik)
+
+</div>
+
+---
+
+Base128 works by numerically representing input data with 7-bit groups
+(values 0–127), enabling a simple, human-inspectable numeric representation
+of text — useful for education, data representation experiments, and
+lightweight text transformation tasks.
+
+> ⚠️ Base128 is **not** a security, encryption, or compression tool. It only
+> transforms text into a sequence of integers and back.
+
+## Contents
+
+- [Features](#features)
+- [Application](#application)
+- [Limitations](#limitations)
+- [Installation](#installation)
+  - [Go version](#go-version)
+  - [Python version](#python-version)
+- [Usage](#usage)
+  - [Go](#go-usage)
+  - [Python](#python-usage)
+- [CLI options](#cli-options)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [Documentation](#documentation)
+- [Author](#author)
+- [Site](#site)
+- [Download](#download)
+- [License](#license)
+
+## Features
+
+- ✅ Encodes and decodes plain text files (`*.txt`, `*.svg`, `*.html`, ...)
+- ✅ Available in two independent, functionally identical implementations:
+  **Go** and **Python 3**
+- ✅ Reads from a file or from standard input, writes to standard output
+- ✅ Clear error handling for out-of-range characters and malformed input
+- ✅ Optional `--preserve-newlines` flag to keep original line breaks
+- ✅ Zero external dependencies — both versions use only the standard library
+
+## Application
+
+Typical uses of Base128:
+
+**Text data transformation** — turn text into a sequence of integers, making
+it less directly human-readable. Example: encoding `"Hello"` produces
+`72 101 108 108 111`.
+
+**Data representation** — store or transmit text as a list of integers,
+useful in specific data-processing or storage scenarios.
+
+**Educational purposes** — a compact, readable example of how text
+characters map to their ASCII values and back.
+
+## Limitations
+
+- **Text-only support** — designed for text data; binary data is not
+  supported and may produce errors or incorrect output.
+- **No compression or security** — the algorithm neither compresses data nor
+  provides encryption. It only converts text to integers and back.
+- **Limited character range** — works with characters in the range 0–127
+  (ASCII); it does not handle extended character sets or binary data.
+
+## Installation
+
+### Go version
+
 ```bash
-./base128 -e data.txt > encode.txt
+# 1. Clone the repository
+git clone https://github.com/lukaszwojcikdev/base128.git
+cd base128
+
+# 2. Compile the source code
+go build base128.go
+
+# 3. Ready to use
+./base128       # Linux / macOS
+base128.exe     # Windows
 ```
 
-### **Decoding**
-Suppose we have a file `encoded.txt` containing data encoded in Base128 format, and we want to decode it into a file `decoded.txt`.
+### Python version
 
-In this case, invoke the command:
+Requires **Python 3.10+**. No external dependencies.
+
 ```bash
+# 1. Clone the repository (if not already done)
+git clone https://github.com/lukaszwojcikdev/base128.git
+cd base128
+
+# 2. Run directly
+python3 base128.py -h
+
+# 3. (Optional) make it executable on Linux/macOS
+chmod +x base128.py
+./base128.py -h
+```
+
+## Usage
+
+### Go usage
+
+```bash
+# Encode
+./base128 -e data.txt > encoded.txt
+
+# Decode
 ./base128 -d encoded.txt > decoded.txt
 ```
 
-That's all! Now you should be able to install **Base128** and use it to encode and decode text data using the Base128 format.
+### Python usage
 
+```bash
+# Encode
+python3 base128.py -e data.txt > encoded.txt
 
-## **Contributing**
+# Decode
+python3 base128.py -d encoded.txt > decoded.txt
 
-Contributions are always welcome! If you'd like to contribute to the development of **Base128**, please follow these steps:
+# Encode from standard input
+echo "Hello, World!" | python3 base128.py -e
+
+# Preserve newlines when encoding/decoding
+python3 base128.py -e --preserve-newlines data.txt > encoded.txt
+python3 base128.py -d encoded.txt > decoded.txt
+```
+
+Both implementations share the same command-line interface, so scripts and
+examples below apply equally to `./base128` and `python3 base128.py`.
+
+## CLI options
+
+| Flag                    | Description                                                      |
+| ------------------------ | ----------------------------------------------------------------- |
+| `-e`, `--encode`         | Encodes the input into Base128 format.                            |
+| `-d`, `--decode`         | Decodes data previously encoded with Base128.                     |
+| `-h`, `--help`           | Prints usage instructions and the list of available options.      |
+| `--preserve-newlines`    | Keeps `\n` / `\r` characters instead of stripping them.           |
+| `--version`              | Prints the program's version.                                     |
+| `--copyright`            | Prints copyright information.                                     |
+
+## Examples
+
+**Encoding a message:**
+
+```text
+$ echo -n "Hello, World!" | python3 base128.py -e
+72 101 108 108 111 44 32 87 111 114 108 100 33
+```
+
+**Decoding it back:**
+
+```text
+$ echo "72 101 108 108 111 44 32 87 111 114 108 100 33" | python3 base128.py -d
+Hello, World!
+```
+
+**Handling invalid input:**
+
+```text
+$ echo "72 200 108" | python3 base128.py -d
+base128: liczba na pozycji 1 (200) jest poza zakresem Base128 (0-127)
+```
+
+## Contributing
+
+Contributions are always welcome! To contribute to Base128:
 
 1. Fork the repository on GitHub.
 2. Create a new branch for your feature or bugfix.
-3. Make your changes and ensure the code is properly tested.
-4. Submit a pull request with a detailed description of your changes.
+3. Make your changes and ensure both the Go and Python implementations stay
+   in sync in behavior (options, error messages, exit codes).
+4. Submit a pull request with a clear description of your changes.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) and
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
 
 ## Documentation
 
-[See these PDF](http://www.base128.pl/base128_source_code.pdf)
-
+- [Base128 source code (PDF)](http://www.base128.pl/base128_source_code.pdf)
 
 ## Author
 
 - [@lukaszwojcikdev](https://www.github.com/lukaszwojcikdev)
 
-
 ## Site
 
 - [www.base128.pl](http://www.base128.pl)
 - [www.lukaszwojcik.eu](http://www.lukaszwojcik.eu)
-  
+
 ## Download
 
-Windows|Linux
--|-
-[ZIP](http://www.base128.pl/base128.zip)|
-[MD5](http://www.base128.pl/base128.md5sum/)|
+| Platform     | Link                                                     |
+| ------------ | --------------------------------------------------------- |
+| Source (ZIP) | [Download](http://www.base128.pl/base128.zip)             |
+| MD5 checksum | [Download](http://www.base128.pl/base128md5sum.md5)       |
+| Go source    | [base128.go](base128.go)                                  |
+| Python source| [base128.py](base128.py)                                  |
+
 ## License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+[MIT License](LICENSE.md)
 
+<div align="center">
+
+Made with ❤️ by [Łukasz Wójcik](http://www.lukaszwojcik.eu) &middot; [www.base128.pl](http://www.base128.pl)
+
+</div>
